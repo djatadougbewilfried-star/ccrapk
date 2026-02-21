@@ -8,13 +8,22 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_APP_ENV": "development"
+        "EXPO_PUBLIC_APP_ENV": "development",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://kmmcrcxgzvahoswqgtzc.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImttbWNyY3hnenZhaG9zd3FndHpjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYzMTI2NTcsImV4cCI6MjA4MTg4ODY1N30.tszQ0ctAX4Sn2VI9_z9Fj_ViwvSWRUhRxjpR4-v8yas",
+        "EXPO_PUBLIC_DEFAULT_CHURCH_ID": "00000000-0000-0000-0000-000000000001"
       }
     },
     "preview": {
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_APP_ENV": "staging"
+        "EXPO_PUBLIC_APP_ENV": "staging",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://kmmcrcxgzvahoswqgtzc.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImttbWNyY3hnenZhaG9zd3FndHpjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYzMTI2NTcsImV4cCI6MjA4MTg4ODY1N30.tszQ0ctAX4Sn2VI9_z9Fj_ViwvSWRUhRxjpR4-v8yas",
+        "EXPO_PUBLIC_DEFAULT_CHURCH_ID": "00000000-0000-0000-0000-000000000001",
+        "EXPO_PUBLIC_ENABLE_OFFLINE_MODE": "true",
+        "EXPO_PUBLIC_API_TIMEOUT": "30000",
+        "EXPO_PUBLIC_API_RETRY_ATTEMPTS": "3"
       },
       "android": {
         "buildType": "apk"
@@ -24,8 +33,14 @@
       "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_APP_ENV": "production",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://kmmcrcxgzvahoswqgtzc.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImttbWNyY3hnenZhaG9zd3FndHpjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYzMTI2NTcsImV4cCI6MjA4MTg4ODY1N30.tszQ0ctAX4Sn2VI9_z9Fj_ViwvSWRUhRxjpR4-v8yas",
+        "EXPO_PUBLIC_DEFAULT_CHURCH_ID": "00000000-0000-0000-0000-000000000001",
         "EXPO_PUBLIC_ENABLE_ANALYTICS": "true",
-        "EXPO_PUBLIC_ENABLE_CRASH_REPORTING": "true"
+        "EXPO_PUBLIC_ENABLE_CRASH_REPORTING": "true",
+        "EXPO_PUBLIC_ENABLE_OFFLINE_MODE": "true",
+        "EXPO_PUBLIC_API_TIMEOUT": "30000",
+        "EXPO_PUBLIC_API_RETRY_ATTEMPTS": "3"
       }
     }
   },
