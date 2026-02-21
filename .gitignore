@@ -1,0 +1,161 @@
+# ============================================
+# CCR App - Fichiers à ignorer par Git
+# ============================================
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# ============================================
+# ENVIRONNEMENT ET SECRETS (CRITIQUE!)
+# ============================================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+*.env
+
+# Ne jamais commiter les fichiers de secrets
+secrets/
+*.secret
+*.secrets
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# ============================================
+# EXPO
+# ============================================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# EAS Build
+.easignore
+
+# ============================================
+# BUILDS NATIFS
+# ============================================
+# iOS
+/ios/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android
+/android/
+*.apk
+*.aab
+*.hprof
+
+# ============================================
+# METRO BUNDLER
+# ============================================
+.metro-health-check*
+
+# ============================================
+# CERTIFICATS ET CLÉS
+# ============================================
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+*.keystore
+*.cer
+
+# ============================================
+# DEBUG ET LOGS
+# ============================================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+logs/
+
+# ============================================
+# IDE ET ÉDITEURS
+# ============================================
+# VSCode (garder settings partagés si souhaité)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (WebStorm, etc.)
+.idea/
+
+# ============================================
+# OS
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================
+# TYPESCRIPT
+# ============================================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ============================================
+# TESTS
+# ============================================
+coverage/
+.nyc_output/
+
+# ============================================
+# CACHE
+# ============================================
+.cache/
+.parcel-cache/
+.turbo/
+
+# ============================================
+# DIVERS
+# ============================================
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Fichiers de backup
+*.bak
+*.backup
+
+# Fichiers générés
+generated/
+__generated__/
+
+# Documentation générée (sauf si voulue)
+docs/api/
+
+# Package lock alternatifs (garder un seul)
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# CLAUDE/AI
+# ============================================
+.claude/settings.local.json
